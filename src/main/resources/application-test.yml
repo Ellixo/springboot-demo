@@ -1,0 +1,9 @@
+server:
+    port: 9292
+    ssl:
+        key-store: classpath:keystore.jks
+        key-store-password: password
+        key-password: password
+security:
+    user:
+        password: password
